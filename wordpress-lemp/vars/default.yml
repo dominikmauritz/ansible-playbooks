@@ -1,0 +1,14 @@
+---
+#System Settings
+php_modules: [ 'php-curl', 'php-gd', 'php-mbstring', 'php-xml', 'php-xmlrpc', 'php-soap', 'php-intl', 'php-zip' ]
+
+#MySQL Settings
+mysql_root_password: "sdklfjlkjsdf2434"
+mysql_db: "wordpress"
+mysql_user: "wordpress"
+mysql_password: "ljsdflkjsdlkfjl234"
+
+#HTTP Settings
+http_host: "ansibletest.vionetworks.de"
+http_conf: "ansibletest.vionetworks.de.conf"
+http_port: "80"
